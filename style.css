@@ -18,10 +18,13 @@ margin: 5px 8px ;
     top: 0;
     left: 0;
     background-color: aqua;
+    
+}
+#nav-bar, ul{
     list-style: none; 
     display: flex;
+    flex-direction: row;  
 }
-
 a{
     text-decoration: none;
     color: black;
@@ -59,4 +62,8 @@ caption{
 tbody{
     font-size: 95%;
     font-style: italic;
+}
+ .list{
+    list-style: square;
+    flex-direction: column;  
 }
