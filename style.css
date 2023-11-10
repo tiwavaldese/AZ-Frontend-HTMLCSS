@@ -73,3 +73,12 @@ tbody{
 form{
     margin-top: 4rem;
 }
+ #email {
+    margin-left: 2.9rem;
+}
+#age{
+    margin-left: 3.8rem;
+}
+.number{
+    margin-left: 5.5rem; 
+}
