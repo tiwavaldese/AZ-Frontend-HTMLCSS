@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Tiwa Valdese">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Form</title>
+    <link rel="icon" href="./form.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+   <nav id="nav-bar">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="table_list.html">Table list</a></li>
+        <li><a href="forms.html">Form</a></li>
+    </ul>
+   </nav>
+   </header>
+  <form>
+    <section>
+    <label for="name"><strong>Full Name:</strong></label>
+    <br>
+    
+    <input type="text" id="first_name" name="first_name" required>
+    <input type="text" id="last_name" name="last_name" required>
+    <br>
+    <label for="first_name">First Name</label>
+    <label for="last_name">Last Name</label>
+    <br>
+    <label for="user_name"><strong>User Name:</strong></label>
+    <label for="email"><strong>Email:</strong></label>
+    <br>
+    <input type="text" id="user_name" name="user_name" required>
+    <input type="text" id="email" name="email" placeholder="ex:myname@example.com" required>
+    <br>
+    <label for="age"><strong>Age:</strong></label>
+    <label for="number"><strong>Phone Number:</strong></label>
+    <br>
+    <input type="number" id="age" min="18" max="65" id="age" name="age" required>
+    <input type="number" id="number" name="number" required>
+    <br>
+    <label for="date"><strong>Date of Birth:</strong></label>
+    <label for="residence"><strong>Country of Residence:</strong></label>
+    <br>
+    <input type="date" id="date" name="date" required>
+    <select id="residence" name="residence" required>
+        <option value="america">America</option>
+        <option value="germany">Germany</option>
+        <option value="cameroon" selected>Cameroon</option>
+        <option value="hungary">Hungary</option>
+        <option value="singapore">Singapore</option>
+        <option value="japan">Japan</option>
+    </select>
+    </section>
+    <br>
+    <section>
+    <label><strong>Choose your gender:</strong></label>
+    <br>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female" checked required>
+    <label for="female">Female</label>
+    <br>
+    <label><strong>Choose your hobbies:</strong></label>
+    <br>
+    <input type="checkbox" id="reading" name="hobby">
+    <label for="reading">Reading</label>
+    <input type="checkbox" id="dancing" name="hobby" >
+    <label for="dancing">Dancing</label>
+    <input type="checkbox" id="music" name="hobby">
+    <label for="music">Music</label>
+    <input type="checkbox" id="sports" name="hobby" checked>
+    <label for="sports">Sports</label>
+    <input type="checkbox" id="travel" name="hobby">
+    <label for="travel">Travel</label>
+    </section>
+    <br>
+    <textarea name="message" rows="10" cols="65" placeholder="Please enter a comment"></textarea>
+    <br>
+    <button type="submit">Submit Form</button>
+  </form>
+   
+</body>
+</html>
