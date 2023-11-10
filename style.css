@@ -82,3 +82,7 @@ form{
 .number{
     margin-left: 5.5rem; 
 }
+button{
+    height: 1.5rem;
+    background-color: rgb(190,190,190);
+}
