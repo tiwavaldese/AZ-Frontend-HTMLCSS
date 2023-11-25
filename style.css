@@ -76,6 +76,16 @@ tbody{
 form{
     margin-top: 4rem;
 }
+
+input:focus{
+    border: 2px solid red;
+    outline: none;
+    border-radius: 10px;
+}
+select:focus{
+    border: 2px solid blueviolet;
+    outline: none; 
+}
  #email {
     margin-left: 2.9rem;
 }
@@ -85,9 +95,24 @@ form{
 .number{
     margin-left: 5.5rem;
 }
+input[type="radio"]:checked + label{
+    background-color: aqua;
+    border-radius: 10px;
+    font-style:oblique;
+}
+input[type="checkbox"]:checked + label{
+    background-color: aqua;
+    border-radius: 10px;
+    font-style: italic;
+}
 button{
     height: 1.5rem;
     background-color: rgb(190,190,190);
+}
+button:hover{
+    background-color: aqua;
+    border: 2px solid blue;
+    border-radius: 0.5rem;
 }
 .highlight{
     color: red;
